@@ -10,7 +10,7 @@ Track item prices on eBay or Grailed and get notified via email or SMS when they
 - Frontend built with React + TypeScript
 
 ## Tech Stack
-- Java + Spring Boot
+- Java + Spring Boo
 - React + TypeScript
 - PostgreSQL / H2
 - JSoup
