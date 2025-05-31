@@ -1,11 +1,10 @@
-package com.pricenotifier;
+package com.amazon.pricenotifier;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.cloud.aws.autoconfigure.context.ContextStackAutoConfiguration;
 
-@SpringBootApplication(exclude = {ContextStackAutoConfiguration.class})
+@SpringBootApplication
 @EnableScheduling
 public class PriceNotifierApplication {
     public static void main(String[] args) {
