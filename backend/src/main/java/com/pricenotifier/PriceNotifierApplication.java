@@ -2,11 +2,8 @@ package com.pricenotifier;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.cloud.aws.autoconfigure.context.ContextStackAutoConfiguration;
 
-@SpringBootApplication(exclude = {ContextStackAutoConfiguration.class})
-@EnableScheduling
+@SpringBootApplication
 public class PriceNotifierApplication {
     public static void main(String[] args) {
         SpringApplication.run(PriceNotifierApplication.class, args);
