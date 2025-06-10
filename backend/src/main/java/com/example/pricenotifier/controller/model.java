@@ -447,26 +447,50 @@ class UpdateTrackedItemRequest {
     private Boolean isActive;
 
     // Getters and setters
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-    public String getDescription() { return description; }
-    public void setDescription(String description) { this.description = description; }
-    public BigDecimal getTargetPrice() { return targetPrice; }
-    public void setTargetPrice(BigDecimal targetPrice) { this.targetPrice = targetPrice; }
-    public Boolean getIsActive() { return isActive; }
-    public void setIsActive(Boolean isActive) { this.isActive = isActive; }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public BigDecimal getTargetPrice() {
+        return targetPrice;
+    }
+
+    public void setTargetPrice(BigDecimal targetPrice) {
+        this.targetPrice = targetPrice;
+    }
+
+    public Boolean getIsActive() {
+        return isActive;
+    }
+
+    public void setIsActive(Boolean isActive) {
+        this.isActive = isActive;
+    }
+
+    public void setisInactive(boolean isInactive) {
+        this.isActive = null;
+    }
+
+
+    public void setisInactive(boolean isInactive) {
+        this.isActive = null;
+    }
+    public void setisInactive(boolean isInactive) {
+        this.isActive = null;
+    }
+
+
+
 }
-
-class SubscriptionRequest {
-    @javax.validation.constraints.NotBlank
-    private String email;
-
-    // Logic needed to added here for more fixes
-    // Getters and setters
-    public String getEmail() { return email; }
-    public void setEmail(String email) { this.email = email; }
-    public BigDecimal getTargetPrice() { return targetPrice; }
-    public void setTargetPrice(BigDecimal targetPrice) { this.targetPrice = targetPrice; }
-    public String getAlertType() { return alertType; }
-    public void setAlertType(String alertType)
-    public boolean equal(TrackedItemController);
