@@ -479,17 +479,6 @@ class UpdateTrackedItemRequest {
         this.isActive = isActive;
     }
 
-    public void setisInactive(boolean isInactive) {
-        this.isActive = null;
-    }
-
-
-    public void setisInactive(boolean isInactive) {
-        this.isActive = null;
-    }
-    public void setisInactive(boolean isInactive) {
-        this.isActive = null;
-    }
 
 
 
