@@ -469,3 +469,4 @@ class SubscriptionRequest {
     public void setTargetPrice(BigDecimal targetPrice) { this.targetPrice = targetPrice; }
     public String getAlertType() { return alertType; }
     public void setAlertType(String alertType)
+    public boolean equal(TrackedItemController);
