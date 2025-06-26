@@ -1,0 +1,13 @@
+Summary Table
+Step	What to Do Next
+Requirements & Design	Write user stories, list features, sketch endpoints
+Project Structure	Organize folders, set up DB
+User Auth	User model, register/login endpoints
+Item Tracking	Listing model, add/track item endpoint
+eBay Integration	API credentials, fetch price, test
+Notification System	Decide method, implement MVP
+Scheduling	Set up periodic price checks
+Testing & Docs	Write tests, document API
+Next Marketplaces	Abstract logic, plan for Amazon/Grailed/Depop
+(Optional) Frontend/Bot	Start simple UI or bot
+Deployment & Feedback	Deploy, get user feedback
